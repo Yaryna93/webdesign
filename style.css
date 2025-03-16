@@ -1,0 +1,114 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  width: min(1128px, 90vw);
+  margin-inline: auto;
+}
+
+header {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      h1 {
+        margin: 0;
+        text-transform: uppercase;
+        font-family: var(--second-family);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+
+        b {
+          color: var(--iris);
+        }
+      }
+
+      ul {
+        margin-left: 36px;
+        display: flex;
+        gap: 40px;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+      }
+
+      &.right {
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+      }
+    }
+  }
+}
+
+.hero {
+  height: 600px;
+  background: var(--navy-blue);
+  text-align: center;
+  align-content: center;
+
+  h2 {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--white);
+  }
+
+  button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 #00000026;
+    background: var(--iris);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+  }
+}
