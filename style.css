@@ -112,3 +112,143 @@ header {
     color: var(--white);
   }
 }
+
+.features {
+  width: 1128px;
+  height: 104px;
+
+
+  .features-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 264px;
+    height: 104px;
+  }
+
+  .h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+
+  .p {
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+
+
+}
+
+.products {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+
+  .list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+}
+
+.team {
+  width: 1440px;
+  height: 732px;
+  background: var(--cloud);
+
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+
+    /* line-height: 40px; */
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--navy-blue);
+  }
+
+  .team-list {
+    display: flex;
+  }
+
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--slate);
+  }
+}
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: var(--navy-blue);
+
+  .footer-box {
+
+    width: 264px;
+    height: 112px;
+  }
+
+  .logo {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+
+
+    b {
+      color: var(--iris);
+    }
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+  }
+}
